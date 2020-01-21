@@ -1,4 +1,4 @@
-export default     function compare(a, b) {
+export default function compare(a, b) {
   const nameA = a.occupation.toUpperCase();
   const nameB = b.occupation.toUpperCase();
 
