@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/employee-directory-react/static/css/main.09e173b4.chunk.css",
-    "main.js": "/employee-directory-react/static/js/main.c0c2e64b.chunk.js",
-    "main.js.map": "/employee-directory-react/static/js/main.c0c2e64b.chunk.js.map",
-    "runtime-main.js": "/employee-directory-react/static/js/runtime-main.8b624fbe.js",
-    "runtime-main.js.map": "/employee-directory-react/static/js/runtime-main.8b624fbe.js.map",
-    "static/js/2.528117f1.chunk.js": "/employee-directory-react/static/js/2.528117f1.chunk.js",
-    "static/js/2.528117f1.chunk.js.map": "/employee-directory-react/static/js/2.528117f1.chunk.js.map",
-    "index.html": "/employee-directory-react/index.html",
-    "precache-manifest.4eda1b9fa593e64f50da0c8e421564e5.js": "/employee-directory-react/precache-manifest.4eda1b9fa593e64f50da0c8e421564e5.js",
-    "service-worker.js": "/employee-directory-react/service-worker.js",
-    "static/css/main.09e173b4.chunk.css.map": "/employee-directory-react/static/css/main.09e173b4.chunk.css.map",
-    "static/js/2.528117f1.chunk.js.LICENSE": "/employee-directory-react/static/js/2.528117f1.chunk.js.LICENSE"
+    "main.css": "/employeedirectoryreact/static/css/main.09e173b4.chunk.css",
+    "main.js": "/employeedirectoryreact/static/js/main.3d503011.chunk.js",
+    "main.js.map": "/employeedirectoryreact/static/js/main.3d503011.chunk.js.map",
+    "runtime-main.js": "/employeedirectoryreact/static/js/runtime-main.adc273ab.js",
+    "runtime-main.js.map": "/employeedirectoryreact/static/js/runtime-main.adc273ab.js.map",
+    "static/js/2.528117f1.chunk.js": "/employeedirectoryreact/static/js/2.528117f1.chunk.js",
+    "static/js/2.528117f1.chunk.js.map": "/employeedirectoryreact/static/js/2.528117f1.chunk.js.map",
+    "index.html": "/employeedirectoryreact/index.html",
+    "precache-manifest.e23d9d105b0c93d09bb0dcb46bf93b31.js": "/employeedirectoryreact/precache-manifest.e23d9d105b0c93d09bb0dcb46bf93b31.js",
+    "service-worker.js": "/employeedirectoryreact/service-worker.js",
+    "static/css/main.09e173b4.chunk.css.map": "/employeedirectoryreact/static/css/main.09e173b4.chunk.css.map",
+    "static/js/2.528117f1.chunk.js.LICENSE": "/employeedirectoryreact/static/js/2.528117f1.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b624fbe.js",
+    "static/js/runtime-main.adc273ab.js",
     "static/js/2.528117f1.chunk.js",
     "static/css/main.09e173b4.chunk.css",
-    "static/js/main.c0c2e64b.chunk.js"
+    "static/js/main.3d503011.chunk.js"
   ]
 }
