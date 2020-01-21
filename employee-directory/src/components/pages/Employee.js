@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { compare, compareId, compareLocation, compareOccupation} from "../Functions/compare";
 import friends from "../../friends.json";
 import Container from "../Container/index";
 import TableHead from "../TableHead/index";
-import compare from "../Functions/compare";
-import compareLocation from "../Functions/compareLocation";
-import compareOccupation from "../Functions/compareOccupation";
-import compareId from "../Functions/compareId"
 import CardBtn from "../CardBtn/index"
 
 export default function Employee() {
@@ -26,10 +23,6 @@ export default function Employee() {
     useEffect(() => {
         setEmployeeInfo(friends);
       }, []);
-
-    function loadAllEmployee() {
-        setEmployeeInfo(friends);
-    }
 
     function filterByColor(value) {
         let selectedColor = friends.filter(o => o.color === value);
@@ -59,15 +52,7 @@ export default function Employee() {
     return (
         <div>
             <Container>
-            <CardBtn className="btn btn-primary" onClick={e => loadAllEmployee()}> Show All </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => sortByName()}> Sort By Name </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => sortById()}> Sort By ID </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => sortByOccupation()}> Sort By Occupation </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => sortByLocation()}> Sort By Location </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => filterByColor("red")}> Filter Red </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => filterByColor("blue")}> Filter Blue </CardBtn>
-            <CardBtn className="btn btn-primary" onClick={e => filterByColor("green")}> Filter Green </CardBtn>
-            <table className="table table-dark table-bordered">
+            <table className="table table-striped table-sm">
             <TableHead />
             <tbody>
                 <tr>
@@ -79,6 +64,17 @@ export default function Employee() {
                 </tr>
             </tbody>
             </table>
+            
+            <div class='btn-group btn-group-sm'>
+              <CardBtn className="btn btn-success" onClick={e => sortByName()}> Sort By Name </CardBtn>
+              <CardBtn className="btn btn-primary" onClick={e => sortById()}> Sort By ID </CardBtn>
+              <CardBtn className="btn btn-success" onClick={e => sortByOccupation()}> Sort By Occupation </CardBtn>
+              <CardBtn className="btn btn-primary" onClick={e => sortByLocation()}> Sort By Location </CardBtn>
+              <CardBtn className="btn btn-success" onClick={e => filterByColor("red")}> Filter Red </CardBtn>
+              <CardBtn className="btn btn-primary" onClick={e => filterByColor("blue")}> Filter Blue </CardBtn>
+              <CardBtn className="btn btn-success" onClick={e => filterByColor("green")}> Filter Green </CardBtn>
+            </div>
+            
             </Container>
         </div>
     );
